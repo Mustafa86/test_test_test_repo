@@ -25,4 +25,4 @@ jobs:
       run: |
         pytest
     - name: Test with pylint
-        pylint
+        pylint wine_model.py
